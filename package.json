@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [express-xml-bodyparser (v0.3.0)](https://github.com/macedigital/express-xml-bodyparser)  [![npm package](https://img.shields.io/npm/v/npmtest-express-xml-bodyparser.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-xml-bodyparser) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-xml-bodyparser.svg)](https://travis-ci.org/npmtest/node-npmtest-express-xml-bodyparser)",
+    "description": "#### basic test coverage for  [express-xml-bodyparser (v0.3.0)](https://github.com/macedigital/express-xml-bodyparser)  [![npm package](https://img.shields.io/npm/v/npmtest-express-xml-bodyparser.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-xml-bodyparser) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-xml-bodyparser.svg)](https://travis-ci.org/npmtest/node-npmtest-express-xml-bodyparser)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "express-xml-bodyparser": "*",
@@ -36,5 +36,5 @@
         "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.2"
+    "version": "2017.4.25"
 }

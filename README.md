@@ -1,6 +1,6 @@
 # npmtest-express-xml-bodyparser
 
-#### test coverage for  [express-xml-bodyparser (v0.3.0)](https://github.com/macedigital/express-xml-bodyparser)  [![npm package](https://img.shields.io/npm/v/npmtest-express-xml-bodyparser.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-xml-bodyparser) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-xml-bodyparser.svg)](https://travis-ci.org/npmtest/node-npmtest-express-xml-bodyparser)
+#### basic test coverage for  [express-xml-bodyparser (v0.3.0)](https://github.com/macedigital/express-xml-bodyparser)  [![npm package](https://img.shields.io/npm/v/npmtest-express-xml-bodyparser.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-xml-bodyparser) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-xml-bodyparser.svg)](https://travis-ci.org/npmtest/node-npmtest-express-xml-bodyparser)
 
 #### Simple XML body parser connect/express middleware
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-express-xml-bodyparser/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-express-xml-bodyparser/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-express-xml-bodyparser/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-express-xml-bodyparser/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-express-xml-bodyparser/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-express-xml-bodyparser/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-express-xml-bodyparser/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-express-xml-bodyparser/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-express-xml-bodyparser/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-express-xml-bodyparser/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-express-xml-bodyparser/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-express-xml-bodyparser/build/coverage.html/index.html)
 
@@ -117,7 +117,8 @@
         "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/ 2> /dev/null",
         "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/ 2> /dev/null"
     },
-    "version": "0.3.0"
+    "version": "0.3.0",
+    "bin": {}
 }
 ```
 
